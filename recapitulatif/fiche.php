@@ -67,9 +67,9 @@
               $code_fiche = $_GET['code'];
               if(strlen($code_fiche) == 12){
                 $servername = "localhost";
-                $username = "e22207364sql";
-                $password1 = "C3Z4D!n#";
-                $dbname = "e22207364_db1";
+                $username = "";
+                $password1 = "";
+                $dbname = "";
                           
                 $mysqli = new mysqli($servername, $username, $password1, $dbname);
                 if ($mysqli->connect_error) {
