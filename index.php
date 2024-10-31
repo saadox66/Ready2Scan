@@ -463,7 +463,7 @@ saad.elouliky@etudiant.univ-brest.fr
     		<div class="row d-flex" style='justify-content : center; align-items: center;'>
           
         <?php
-            $mysqli = new mysqli('localhost','e22207364sql','C3Z4D!n#','e22207364_db1');
+            $mysqli = new mysqli('localhost','','','');
             if ($mysqli->connect_errno)
             {
                 // Affichage d'un message d'erreur
